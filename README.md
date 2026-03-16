@@ -31,7 +31,7 @@ Top Relevant Documents
 ## Technologies Used
 - Python  
 - Sentence Transformers  
-- FAISS (vector similarity search)  
+- FAISS (vector similarity search)  FAISS is used locally to simulate vector storage, while Endee would be used in production.
 - NumPy  
 - Endee (conceptual vector database integration)
 
