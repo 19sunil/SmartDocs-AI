@@ -37,13 +37,13 @@ Top Relevant Documents
 
 ## How Endee is Used
 
-Vector databases store high-dimensional embeddings and enable fast similarity search across large datasets. They are a core component of modern AI systems such as semantic search, recommendation engines, and Retrieval-Augmented Generation (RAG).
+Vector databases store high-dimensional embeddings and enable fast similarity search across large datasets. They are widely used in modern AI systems such as semantic search, recommendation engines, and Retrieval-Augmented Generation (RAG).
 
-In this project, documents are converted into vector embeddings using the Sentence Transformers model `all-MiniLM-L6-v2`. These embeddings represent the semantic meaning of the text and are used to perform similarity search when a user submits a query.
+In this project, documents are converted into vector embeddings using the Sentence Transformers model `all-MiniLM-L6-v2`. These embeddings capture the semantic meaning of the text and allow the system to retrieve documents based on similarity instead of exact keyword matching.
 
-For demonstration purposes, FAISS is used as a local vector index to simulate the storage and retrieval of embeddings. This allows the project to run easily in a local environment.
+For local execution and demonstration, FAISS is used as a lightweight vector index to store embeddings and perform similarity search. This allows the project to run easily on a local machine without requiring external infrastructure.
 
-In real-world deployments, these embeddings would be stored and queried using the **Endee vector database**, which provides scalable and efficient vector storage, indexing, and similarity search capabilities for large-scale AI applications.
+However, the system architecture is designed to be compatible with the **Endee vector database**. In a real production environment, document embeddings would be stored and queried using Endee, enabling scalable vector indexing, efficient similarity search, and integration with AI workflows such as semantic search and RAG pipelines.
 
 ## Project Structure
 ```
