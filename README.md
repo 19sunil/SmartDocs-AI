@@ -59,8 +59,8 @@ endee-ai-semantic-search
 
 ### Clone the repository
 ```
-git clone https://github.com/yourusername/endee-ai-semantic-search
-cd endee-ai-semantic-search
+git clone https://https://github.com/19sunil/SmartDocsAI
+cd SmartDocsAI
 ```
 
 ### Create virtual environment
