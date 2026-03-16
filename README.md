@@ -1,4 +1,4 @@
-# endee-io - SmartDocs AI 🔎
+# SmartDocs AI 🔎
 
 Semantic Document Search using AI embeddings and vector similarity search.
 
