@@ -1,0 +1,6 @@
+Artificial Intelligence is transforming industries.
+Machine learning improves predictive analytics.
+Deep learning is widely used in computer vision.
+Vector databases help store embeddings efficiently.
+Semantic search understands the meaning of queries.
+RAG systems combine retrieval with language models.
