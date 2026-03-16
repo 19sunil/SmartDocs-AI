@@ -36,11 +36,14 @@ Top Relevant Documents
 - Endee (conceptual vector database integration)
 
 ## How Endee is Used
-Vector databases store embeddings and allow fast similarity search across large datasets.
 
-This project demonstrates the workflow used in systems that use vector databases like Endee. For simplicity, FAISS is used as a local vector index to simulate the embedding storage and search process.
+Vector databases store high-dimensional embeddings and enable fast similarity search across large datasets. They are a core component of modern AI systems such as semantic search, recommendation engines, and Retrieval-Augmented Generation (RAG).
 
-In production systems, Endee can replace the local vector index to provide scalable and efficient semantic retrieval.
+In this project, documents are converted into vector embeddings using the Sentence Transformers model `all-MiniLM-L6-v2`. These embeddings represent the semantic meaning of the text and are used to perform similarity search when a user submits a query.
+
+For demonstration purposes, FAISS is used as a local vector index to simulate the storage and retrieval of embeddings. This allows the project to run easily in a local environment.
+
+In real-world deployments, these embeddings would be stored and queried using the **Endee vector database**, which provides scalable and efficient vector storage, indexing, and similarity search capabilities for large-scale AI applications.
 
 ## Project Structure
 ```
