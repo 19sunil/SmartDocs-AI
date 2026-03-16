@@ -29,11 +29,13 @@ Similarity Search
 Top Relevant Documents  
 
 ## Technologies Used
-- Python  
-- Sentence Transformers  
-- FAISS (vector similarity search), FAISS is used locally to simulate vector storage, while Endee would be used in production.
-- NumPy  
-- Endee (conceptual vector database integration)
+
+- **Python** – Core programming language used to build the project.
+- **Sentence Transformers** – Used to generate semantic embeddings from text using the `all-MiniLM-L6-v2` model.
+- **FAISS** – Used for local vector indexing and similarity search.
+- **NumPy** – Used for numerical operations and vector handling.
+- **Endee (Vector Database)** – Intended vector database for scalable storage and similarity search of embeddings in production environments.
+- **Git & GitHub** – Used for version control and project hosting.
 
 ## How Endee is Used
 
