@@ -12,7 +12,7 @@ The project demonstrates an AI workflow involving embedding generation, vector s
 ## Problem Statement
 Organizations often manage large collections of documents such as knowledge bases, FAQs, manuals, and internal documentation. Traditional keyword-based search systems struggle to retrieve relevant information when queries are phrased differently.
 
-This project solves that challenge by implementing semantic search using vector embeddings and similarity search.
+This project solves that challenge by implemening semantic search using vector embeddings and similarity search.
 
 ## System Architecture
 
